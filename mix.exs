@@ -1,7 +1,7 @@
 defmodule MakeupJava.MixProject do
   use Mix.Project
 
-  @version 0.1.0
+  @version "0.1.0"
   @url "https://github.com/Quartz563/makeup_java"
 
   def project do
@@ -12,8 +12,8 @@ defmodule MakeupJava.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package(),
-      aliases: aliases(),
-      docs: docs()
+      description: description(),
+      docs: docs(),
     ]
   end
 
